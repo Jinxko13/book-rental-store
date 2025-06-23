@@ -1,0 +1,26 @@
+@use '../glob' as glob;
+body {
+  @include glob.font-family();
+}
+
+// productMedia
+.text-price{
+  font-size: 32px;
+  line-height: 1.125;
+  color: #C92127;
+  font-weight: 700;
+}
+.text-del{
+  font-size: 15;
+  line-height: 1.125;
+  color: #888888;
+}
+.text-voucher{
+  font-size: 15px;
+  line-height: 1.125;
+  color: #fff;
+  font-weight: 900;
+  background-color: #C92127;
+  border-radius: 5px;
+  padding: 0px 4px;
+}

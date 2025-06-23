@@ -1,0 +1,4 @@
+// font
+@mixin font-family($font-family: 'Murecho') {
+  font-family: $font-family, sans-serif !important;
+}
